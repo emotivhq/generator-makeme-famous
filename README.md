@@ -1,4 +1,4 @@
-# generator-mcfly 
+# Mcfly - An app generator for #coolkids 
 
 [![Join the chat at https://gitter.im/mcfly-io/generator-mcfly](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mcfly-io/generator-mcfly?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -6,19 +6,13 @@
 [![Build Status](https://travis-ci.org/mcfly-io/generator-mcfly.svg?branch=master)](https://travis-ci.org/mcfly-io/generator-mcfly) [![Test Coverage](https://codeclimate.com/github/mcfly-io/generator-mcfly/badges/coverage.svg)](https://codeclimate.com/github/mcfly-io/generator-mcfly) [![Code Climate](https://codeclimate.com/github/mcfly-io/generator-mcfly/badges/gpa.svg)](https://codeclimate.com/github/mcfly-io/generator-mcfly)   
 [![Dependency Status](https://david-dm.org/mcfly-io/generator-mcfly.svg)](https://david-dm.org/mcfly-io/generator-mcfly) [![devDependency Status](https://david-dm.org/mcfly-io/generator-mcfly/dev-status.svg)](https://david-dm.org/mcfly-io/generator-mcfly#info=devDependencies) [![peerDependency Status](https://david-dm.org/mcfly-io/generator-mcfly/peer-status.svg)](https://david-dm.org/mcfly-io/generator-mcfly#info=peerDependencies)    
 
-
-> A Yeoman generator for scaffolding an application using angular, browserify or webpack, ionic, angular-ui-bootstrap, angular-material...
-
 [![NPM](https://nodei.co/npm/generator-mcfly.png?downloads=false&downloadRank=false&stars=false)](https://nodei.co/npm/generator-mcfly)
 
 
-# IMPORTANT UPDATE
-The generator was previously named `generator-angular-famous-ionic`
+### A few things to note:
 
-2 things to note:
-
-1. installation is now `npm install -g generator-mcfly`
-
+1. If you have issues (like `$ yo: command not found`) - first run `npm install -g yo`
+2. installation is now `npm install -g generator-mcfly`
 2. If you have existing project modify the name of the generator in your `.yo-rc.json` file 
 
 ## Description
@@ -34,22 +28,14 @@ The project has the following capabilities:
 * TestFairy publishing
 * Ionic.io publishing
 
-It also supports ES6/7 by using the babel
-
-See it in action here:   
-[![Building a native like interface with Famous](http://img.youtube.com/vi/L56RnM6VI-w/0.jpg)](http://www.youtube.com/watch?v=L56RnM6VI-w)
-
-and here:   
-[![Building a native like interface with Ionic](http://img.youtube.com/vi/EgRh09CO_rk/0.jpg)](http://www.youtube.com/watch?v=EgRh09CO_rk)
-
+> A supported is ES6/7 by using `the babel`.
 
 > **NOTE:**   
 > This generator is using [generator-sublime](https://github.com/mcfly-io/generator-sublime) to scaffold common dot files (.jshintrc, .eslintrc, etc...).   
 > Check it out https://www.npmjs.org/package/generator-sublime
 
 ## Prerequisites
-In order to get the best experience with this generator, you have to install a couple of globals npm packages.   
-To do so you can execute, after the generator has runned, the following command:
+In order to get the best experience with this generator, you have to install a couple of global npm packages, like Gulp, Yemoan, and more. To do so you can execute, after the generator has ran, the following command:
 
 ```bash
 ./bin/prepublish.sh
@@ -67,6 +53,11 @@ Feel free to tweak `./bin/prepublish.sh` to add your own requirements.
 
 ## Usage
 
+Install `Yeoman`:
+```bash
+npm install -g yo
+```
+
 Install `generator-mcfly`:
 ```bash
 npm install -g generator-mcfly
@@ -74,7 +65,7 @@ npm install -g generator-mcfly
 
 Make a new directory, and `cd` into it:
 ```bash
-mkdir my-new-project && cd $_
+mkdir ew-project && cd $_
 ```
 
 Run `yo mcfly`, optionally passing an app name:
@@ -94,18 +85,16 @@ gulp browsersync
 ```
 
 > **NOTE:**      
-> `gulp browsersync` accepts an option --no-browser if you do not want to automatically open a browser
-
-
+> `gulp browsersync` accepts an option `--no-browser` if you do not want to automatically open a browser
 
 
 > **NOTE:**      
-> `gulp browsersync` accepts an option --https if you do want to force an HTTPS connection   
+> `gulp browsersync` accepts an option `--https` if you want to force an HTTPS connection   
 > you can also control http vs https using in `gulp_taks/common/constants.js` -> `serve.https` boolean
 
 
 ## Upgrade
-I like to publish new versions as soon as possible. So here is the upgrade process.
+Here is the upgrade process.
 
 ```bash
 npm update -g generator-mcfly
@@ -116,7 +105,7 @@ The generator will ask you to provide the name of the folder containing the clie
 If you rename the client folder, make sure you also modify the value stored in `.yo-rc.json`
 
 ## Gulp tasks
-Now that the project is created you have a set of simple gulp tasks command available
+Here is a set of simple gulp tasks available:
 ```
 gulp help           # List the main gulp tasks
 gulp lint           # Run lint
@@ -169,11 +158,11 @@ gulp ionic:platformcopy --target=<targetname>
 
 to copy over the [`ionic-platform-web-client`](https://github.com/driftyco/ionic-platform-web-client) bundle into your client folder, injecting your project's `ionic.io` data into it along the way.
 
-Next, uncomment the line that says `require('./ionic.io.bundle.min-<yourtargetname>');` at [`client/scripts/main<targetsuffix>.js:14`](https://github.com/mcfly-io/generator-mcfly/blob/master/templates/target/scripts/main.js#L14) as well as the module dependency for `'ionic.service.core'` that follows it. Finally comment out the script include of `cordova.js` in [`client/index<targetsuffix>.html:22`](https://github.com/mcfly-io/generator-mcfly/blob/master/templates/target/index.html#L22), since the `ionic.io.bundle.min.js` will automatically load the correct instance of the `cordova.js` script for you.
+Next, uncomment the line that says `require('./ionic.io.bundle.min-<yourtargetname>');` at [`client/scripts/main<targetsuffix>.js:14`](https://github.com/giftstarter/generator-mcfly/blob/master/templates/target/scripts/main.js#L14) as well as the module dependency for `'ionic.service.core'` that follows it. Finally comment out the script include of `cordova.js` in [`client/index<targetsuffix>.html:22`](https://github.com/giftstarter/generator-mcfly/blob/master/templates/target/index.html#L22), since the `ionic.io.bundle.min.js` will automatically load the correct instance of the `cordova.js` script for you.
 
 Currently `'ionic:deploy'` is the only entry-point task, and it runs a `'dist'` and then handles the uploading and optional deployment of a project update to the ionic deploy server. You need to specify a target with a `--target=<targetname>` and then which mode you're using (usually `prod`) with `--mode=<dev|prod>`. After that you can add the `--note` and `--deploy` flags as specified by the [`ionic deploy` cli](http://docs.ionic.io/docs/deploy-deploying-updates).
 
-More tasks to integrate with other ionic.io services are coming soon, but in the meantime, if you write your own, feel free to make a PR to [`mcfly-io/generator-sublime`](https://github.com/mcfly-io/generator-sublime). The file to edit is [`templates/gulps/tasks/ionic.js`](https://github.com/mcfly-io/generator-sublime/tree/master/templates/gulps/tasks/ionic.js). You should refer to the [apps.ionic.io docs](http://docs.ionic.io/) for inspiration, and then look at [`ionic-app-lib`](https://github.com/driftyco/ionic-app-lib) (the library that powers [`ionic-cli`](https://github.com/driftyco/ionic-cli)) to see how you can hook into the ionic system under the hood.
+More tasks to integrate with other ionic.io services are coming soon, but in the meantime, if you write your own, feel free to make a PR to [`giftstarter/generator-mcfly](https://github.com/giftstarter/generator-mcfly). The file to edit is [`templates/gulps/tasks/ionic.js`](https://github.com/mcfly-io/generator-sublime/tree/master/templates/gulps/tasks/ionic.js). You should refer to the [apps.ionic.io docs](http://docs.ionic.io/) for inspiration, and then look at [`ionic-app-lib`](https://github.com/driftyco/ionic-app-lib) (the library that powers [`ionic-cli`](https://github.com/driftyco/ionic-cli)) to see how you can hook into the ionic system under the hood.
 
 ## Browserify/Webpack and namespaces
 At the heart of the generator we use `browserify` or `webpack` to bundle together the client javascript files.   
