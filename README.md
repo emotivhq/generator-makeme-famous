@@ -28,7 +28,9 @@ The project has the following capabilities:
 * TestFairy publishing
 * Ionic.io publishing
 
-> A supported is ES6/7 by using `the babel`.
+> ES6/7 supported by using `the babel`.
+
+---
 
 > **NOTE:**   
 > This generator is using [generator-sublime](https://github.com/mcfly-io/generator-sublime) to scaffold common dot files (.jshintrc, .eslintrc, etc...).   
