@@ -544,7 +544,7 @@ gulp e2e --target=dashboard
 ```
 ## Changelog
 
-Recent changes can be viewed on Github on the [Releases Page](https://github.com/mcfly-io/generator-mcfly/releases)
+Recent changes can be viewed on Github on the [Releases Page](https://github.com/giftstarter/generator-mcfly/releases)
 
 ## License
 
