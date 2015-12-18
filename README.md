@@ -11,7 +11,7 @@
 
 ### A few things to note:
 
-1. If you have issues (like `$ yo: command not found`) - first run `npm install -g yo`
+1. If you have issues (like `$ yo: command not found`) - first run `npm install -g yo` & `npm install --global gulp`
 2. installation is now `npm install -g generator-mcfly`
 2. If you have existing project modify the name of the generator in your `.yo-rc.json` file 
 
@@ -54,6 +54,11 @@ This will install, among others, the following packages globally:
 Feel free to tweak `./bin/prepublish.sh` to add your own requirements.
 
 ## Usage
+
+Install `Gulp`:
+```bash
+npm install --global gulp
+```
 
 Install `Yeoman`:
 ```bash
