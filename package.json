@@ -1,14 +1,14 @@
 {
-  "name": "generator-mcfly",
+  "name": "generator-makeme",
   "version": "2.0.3",
-  "description": "Yeoman generator for scaffolding an app using angularjs browserify",
+  "description": "A universal javascript app generator for Yeoman - featuring Angular, Browserify, Ionic and Famous",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "mcfly-io/generator-mcfly",
+  "repository": "giftstarter/generator-makeme",
   "author": {
-    "name": "Avi Haiat",
-    "email": "thaiat@ipelia.com",
-    "url": "https://github.com/thaiat"
+    "name": "Joel Serino",
+    "email": "joel@giftstarter.com",
+    "url": "https://github.com/giftstarter"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -59,6 +59,7 @@
     "mkdirp": "0.5.1",
     "shelljs": "0.5.3",
     "update-notifier": "0.5.0",
+    "yeoman-environment": "^1.5.0",
     "yeoman-generator": "0.21.1",
     "yosay": "1.1.0"
   },

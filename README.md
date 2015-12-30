@@ -100,6 +100,11 @@ npm install -g generator-mcfly
 
 1. If you have issues (like `$ yo: command not found`) - first run `npm install -g yo` & `npm install --global gulp`
 2. If you have existing project modify the name of the generator in your `.yo-rc.json` file 
+3. If you need to update Node, fo this:
+  1. `npm cache clean -f`
+  2. `sudo npm install -g n`
+  3. `sudo n stable`. Alternatively pick a specific version and install like this:
+  5. `sudo n 5.x.xx`
 
 ---
 
