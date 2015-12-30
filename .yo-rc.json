@@ -1,6 +1,6 @@
 {
   "generator-generator": {},
-  "generator-mcfly": {
+  "generator-makeme": {
     "clientFolder": "client"
   }
 }
