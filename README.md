@@ -61,6 +61,7 @@ Here are some of the main capabilities:
 ## Setting up
 In order to get the best experience, you have to install a couple of global npm packages, like Gulp, Yemoan, and more. Feel free to tweak `./bin/prepublish.sh` to add additional requirements.
 
+###Prerequisites
 #### Auto install
 Execute the following command:
 
@@ -90,9 +91,31 @@ Install `Yeoman`:
 npm install -g yo
 ```
 
-Install `generator-mcfly`:
+Install `Mocha`:
 ```bash
-npm install -g generator-mcfly
+npm install -g mocha
+```
+
+Install `Bower`:
+```bash
+npm install -g bower
+```
+
+Install `Istanbul`:
+```bash
+npm install -g istanbul
+```
+
+Install `Codeclimate`:
+```bash
+npm install -g codeclimate-test-reporter
+```
+
+
+###Install the generator
+Install `generator-makeme`:
+```bash
+ npm install -g generator-makeme
 ```
 
 
@@ -100,11 +123,11 @@ npm install -g generator-mcfly
 
 1. If you have issues (like `$ yo: command not found`) - first run `npm install -g yo` & `npm install --global gulp`
 2. If you have existing project modify the name of the generator in your `.yo-rc.json` file 
-3. If you need to update Node, fo this:
+3. If you need to update Node, do this:
   1. `npm cache clean -f`
-  2. `sudo npm install -g n`
-  3. `sudo n stable`. Alternatively pick a specific version and install like this:
-  5. `sudo n 5.x.xx`
+  2. Install [nvm](https://github.com/creationix/nvm#install-script)
+  3. `nvm install 5.3.0`
+  4. `nvm use 5.3.0`.
 
 ---
 
@@ -216,7 +239,7 @@ Here is the core generator upgrade process.
 
 **1:**
 ```bash
-npm update -g generator-mcfly
+npm update -g generator-makeme
 ```
 **2:**
 ```bash
