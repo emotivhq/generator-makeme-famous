@@ -50,7 +50,7 @@ Here are some of the main capabilities:
 * [Karma](https://karma-runner.github.io/) configured with [Code Coverage](https://karma-runner.github.io/0.8/config/coverage.html)
 * [Protractor](http://www.protractortest.org/) E2E Angular testing
 * [Browser-sync](https://www.browsersync.io/) for synchronised browser testing
-* Continuous integration with [Travic CI](https://travis-ci.org/)
+* Continuous integration with [Travic CI](https://travis-ci.org/giftstarter/generator-makeme)
 * [TestFairy](http://testfairy.com/) publishing for mobile testing
 * [Ionic.io](https://apps.ionic.io) publishing
 * [ES6](http://www.es6js.com/)/[7](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_7_support_in_Mozilla) supported by using [`the babel`](https://babeljs.io/)

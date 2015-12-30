@@ -35,16 +35,7 @@
   ],
   "preferGlobal": true,
   "keywords": [
-    "yeoman-generator",
-    "angular",
-    "angularjs",
-    "browserify",
-    "watchify",
-    "famous",
-    "famo.us",
-    "famous-angular",
-    "ngCordova",
-    "scaffold"
+    "yeoman-generator"
   ],
   "dependencies": {
     "bluebird": "3.0.5",
