@@ -59,7 +59,7 @@ var AppGenerator = Class.extend({
         welcome: function() {
             // Have Yeoman greet the user.
             if (!this.options['skip-welcome-message']) {
-                this.log(yosay('Welcome to the amazing mcfly generator!'));
+                this.log(yosay('Welcome to makeme - let\'s generate some badassery...'));
             }
 
             this.composeWith('sublime:app', {
