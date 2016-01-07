@@ -1,7 +1,9 @@
-# `Makeme` - A Universal Javascript generator for #coolkids 
-`Makeme` is a universal javascript stack generator for Yeoman - featuring Angular, Browserify, Material, Semantic, Ionic and Famous. 
+A universal javascript app generator for Yeoman - featuring Angular, Browserify, Ionic and Famous https://www.npmjs.com/package/generator-makeme
 
-## GyShiDo with `makeme`
+# `Makeme Famous` - A Universal Javascript generator for #coolkids 
+`Makeme Famous` is a universal javascript stack generator for Yeoman - featuring Angular, Browserify, Material, Semantic, Ionic and Famous. 
+
+## GyShiDo with `makeme famous`
 To get shit done, here's a quick list of useful info. 
 
 1. [Universal Javascript](#Welcome-to-Universal-Javascript) with Angular
