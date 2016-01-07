@@ -1,6 +1,6 @@
 {
   "generator-generator": {},
-  "generator-makeme": {
+  "generator-makeme-famous": {
     "clientFolder": "client"
   }
 }
