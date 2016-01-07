@@ -21,13 +21,13 @@ Inside your local clones' folders, finish off your changes and then run
 npm link
 ```
 
-Make sure you do an `npm link` there ***before*** running the command in your `generator-mcfly` folder, if you are testing both.
+Make sure you do an `npm link` there ***before*** running the command in your `generator-makeme-famous` folder, if you are testing both.
 
-This replaces your global versions of `generator-mcfly` and/or `generator-sublime` with symbolic links to your local clones of the generators.
+This replaces your global versions of `generator-makeme-famous` and/or `generator-sublime` with symbolic links to your local clones of the generators.
 
-Once this is done, create a folder for a new project somewhere on your system, e.g. `~/my-mcfly-projects/test-mcfly`, and `cd` into it. Inside run mcfly with
+Once this is done, create a folder for a new project somewhere on your system, e.g. `~/my-makeme-famous-projects/test-makeme-famous`, and `cd` into it. Inside run makeme-famous with
 ```sh
-yo mcfly
+yo makeme-famous
 ```
 and have the generator run. 
 
@@ -35,8 +35,8 @@ and have the generator run.
 
 Next scaffold a module with a controller
 ```sh
-yo mcfly:module common
-yo mcfly:controller common home
+yo makeme-famous:module common
+yo makeme-famous:controller common home
 ```
 
 Then run lint & karma, everything should pass. 
@@ -49,8 +49,8 @@ Make sure you also test the functionality you added to make sure it does what yo
 
 Finally don't forget to unlink and re-install the generators from npm by running
 ```sh
-npm uninstall -g generator-sublime generator-mcfly
-npm install -g generator-sublime generator-mcfly
+npm uninstall -g generator-sublime generator-makeme-famous
+npm install -g generator-sublime generator-makeme-famous
 ```
 
 And please:

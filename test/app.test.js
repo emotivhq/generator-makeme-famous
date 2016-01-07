@@ -84,7 +84,7 @@ describe('generator:app', function() {
                     'testmode': true
                 })
                 .on('end', function() {
-                    assert.equal(this.runGen.generator.log.calledWith(yosay('Welcome to the amazing mcfly generator!')), false);
+                    assert.equal(this.runGen.generator.log.calledWith(yosay('Welcome to the amazing Makeme Famous generator!')), false);
                     done();
                 }.bind(this));
         });
@@ -96,7 +96,7 @@ describe('generator:app', function() {
                     'testmode': true
                 })
                 .on('end', function() {
-                    assert(this.runGen.generator.log.calledWith(yosay('Welcome to the amazing mcfly generator!')));
+                    assert(this.runGen.generator.log.calledWith(yosay('Welcome to the amazing Makeme Famous generator!')));
                     done();
                 }.bind(this));
         });
@@ -107,15 +107,15 @@ describe('generator:app', function() {
                     '.yo-rc.json'
                 ]);
                 var config = testHelper.readJsonFile('.yo-rc.json');
-                assert(config['generator-mcfly'].appname !== undefined, 'appname does not exist in .yo-rc.json');
-                assert(config['generator-mcfly'].filenameCase !== undefined, 'filenameCase does not exist in .yo-rc.json');
-                assert(config['generator-mcfly'].filenameSuffix !== undefined, 'filenameSuffix does not exist in .yo-rc.json');
-                assert(config['generator-mcfly'].bootstrap !== undefined, 'bootstrap does not exist in .yo-rc.json');
-                assert(config['generator-mcfly'].ionic !== undefined, 'ionic does not exist in .yo-rc.json');
-                //assert(config['generator-mcfly'].famous !== undefined, 'famous does not exist in .yo-rc.json');
-                assert(config['generator-mcfly'].ngCordova !== undefined, 'ngCordova does not exist in .yo-rc.json');
-                assert(config['generator-mcfly'].material !== undefined, 'angular-material does not exist in .yo-rc.json');
-                assert(config['generator-mcfly'].clientFolder !== undefined, 'clientFolder does not exist in .yo-rc.json');
+                assert(config['generator-makeme-famous'].appname !== undefined, 'appname does not exist in .yo-rc.json');
+                assert(config['generator-makeme-famous'].filenameCase !== undefined, 'filenameCase does not exist in .yo-rc.json');
+                assert(config['generator-makeme-famous'].filenameSuffix !== undefined, 'filenameSuffix does not exist in .yo-rc.json');
+                assert(config['generator-makeme-famous'].bootstrap !== undefined, 'bootstrap does not exist in .yo-rc.json');
+                assert(config['generator-makeme-famous'].ionic !== undefined, 'ionic does not exist in .yo-rc.json');
+                assert(config['generator-makeme-famous'].famous !== undefined, 'famous does not exist in .yo-rc.json');
+                assert(config['generator-makeme-famous'].ngCordova !== undefined, 'ngCordova does not exist in .yo-rc.json');
+                assert(config['generator-makeme-famous'].material !== undefined, 'angular-material does not exist in .yo-rc.json');
+                assert(config['generator-makeme-famous'].clientFolder !== undefined, 'clientFolder does not exist in .yo-rc.json');
 
                 done();
             });
