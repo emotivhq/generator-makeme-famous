@@ -1,6 +1,6 @@
 {
   "name": "generator-makeme",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "A universal javascript app generator for Yeoman - featuring Angular, Browserify, Ionic and Famous",
   "license": "MIT",
   "main": "app/index.js",
