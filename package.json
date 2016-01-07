@@ -4,7 +4,7 @@
   "description": "A universal javascript app generator for Yeoman - featuring Angular, Browserify, Ionic and Famous",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "giftstarter/generator-makeme",
+  "repository": "giftstarter/generator-makeme-famous",
   "author": {
     "name": "Joel Serino",
     "email": "joel@giftstarter.com",
