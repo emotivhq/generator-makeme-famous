@@ -3,7 +3,7 @@
 
 [ ![Codeship Status for giftstarter/generator-makeme-famous](https://codeship.com/projects/24ba9cc0-9793-0133-aba0-668c447e66c0/status?branch=master)](https://codeship.com/projects/125853)
 
-> Are you looking for [**`Makeme`**](https://www.npmjs.com/package/generator-makeme) Fullstack? 
+> Are you looking for [**`Makeme`**](https://www.github.com/giftstarter/generator-makeme) Fullstack? 
 
 
 ## GyShiDo with `makeme-famous`
