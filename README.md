@@ -1,9 +1,12 @@
-A universal javascript app generator for Yeoman - featuring Angular, Browserify, Ionic and Famous https://www.npmjs.com/package/generator-makeme
-
 # `Makeme Famous` - A Universal Javascript generator for #coolkids 
 `Makeme Famous` is a universal javascript stack generator for Yeoman - featuring Angular, Browserify, Material, Semantic, Ionic and Famous. 
 
-## GyShiDo with `makeme famous`
+[ ![Codeship Status for giftstarter/generator-makeme-famous](https://codeship.com/projects/24ba9cc0-9793-0133-aba0-668c447e66c0/status?branch=master)](https://codeship.com/projects/125853)
+
+> Are you looking for [**`Makeme`**](https://www.npmjs.com/package/generator-makeme) Fullstack? 
+
+
+## GyShiDo with `makeme-famous`
 To get shit done, here's a quick list of useful info. 
 
 1. [Universal Javascript](#Welcome-to-Universal-Javascript) with Angular
