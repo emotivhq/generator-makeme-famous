@@ -16,9 +16,9 @@ To get shit done, here's a quick list of useful info.
 5. Overview of [module folder](#the-module-folder)
 6. [Gulp tasks](#gulp-tasks)
 7. [Adding Bower packages](#adding-bower-packages)
-8. → [Generator](./docs/generators.md) docs 
-9. → [Ionic](./docs/ionic.md) docs
-10. → [Browserify](./docs/browserify.md) docs
+8. → [Generator](./generators.md) docs 
+9. → [Ionic](./ionic.md) docs
+10. → [Browserify](./browserify.md) docs
 11. [Changelog](#changelog)
 12. [Upgrade](#upgrade)
 
